@@ -1,0 +1,275 @@
+body {
+  margin : 0;
+}
+
+/*****************************************TOP CONTAINER*********************************************/
+.top-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #e0ebe8;
+  display: block;
+}
+
+.right-cloud {
+  width: 15%;
+  margin-left: 70%;
+  margin-top: 10vh;
+}
+
+.Name {
+  display: block;
+  font-family: 'Sacramento', cursive;
+  font-size: 10.1vh;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  color: #4ab19a;
+}
+
+.WebDeveloper {
+  display: block;
+  font-family: 'Mali', cursive;
+  font-size: 2.7vh;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+  color: #6eb69b;
+}
+
+.left-cloud {
+  width: 15%;
+  margin-left: 15%;
+
+}
+
+.mountain {
+  width: 50%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+}
+
+/*************************************MIDDLE CONTAINER*********************************/
+
+/*********************************ABOUT CONTAINER************************************/
+.about-container {
+  width: 100%;
+  display: block;
+}
+
+.dude {
+  display: block;
+  width: 10%;
+  margin: 10vh auto 5vh auto;
+}
+
+.hi {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 4vh;
+  color: #47b29a;
+}
+
+.about-para-envelope {
+  display: block;
+  padding: 0 30% 0 30%;
+}
+
+.about-para {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  margin: 0;
+  line-height: 1.8;
+  color: #5e5e5e;
+}
+
+/**********************************SKILL CONTAINER******************************/
+.skill-container {
+  width: 100%;
+  display: block;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vh;
+  color: #318d78;
+}
+
+.skill-data{
+  display: block;
+  padding-top: 2vh;
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  color: #5e5e5e;
+  margin-bottom: 30vh;
+}
+
+.left-stars {
+  line-height: 2;
+  width: 40%;
+  position: absolute;
+  right: 60%;
+  margin-top: 2.5vh;
+}
+
+.left-star-img {
+  height: 2vh;
+  float: right;
+}
+
+.left-skill {
+  text-align: right;
+  width: 10%;
+  position: absolute;
+  right: 52%;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.right-skill {
+  text-align: left;
+  width: 10%;
+  position: absolute;
+  left: 52%;
+  line-height: 1;
+  padding-top: 0;
+}
+
+.right-star {
+  line-height: 2;
+  width: 40%;
+  position: absolute;
+  left: 60%;
+  margin-top: 1.5vh;
+}
+
+.right-star-img {
+  height: 2vh;
+}
+
+
+/*********************************EDUCATION CONTAINER*************************/
+.education-container {
+  width: 100%;
+  display: block;
+  margin-bottom: 10vh;
+}
+
+.college-envelope {
+  display:block;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.college {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.college-img {
+  width: 40%;
+  float: left;
+  margin: 0 10% 0 0 ;
+}
+
+.college-info {
+  display: block;
+}
+
+.big {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 3vh;
+  line-height: 1.8;
+  color: #5e5e5e;
+  font-weight: bold;
+}
+
+.medium {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  line-height: 1.8;
+  color: #5e5e5e;
+}
+
+.small {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 2.4vh;
+  line-height: 1.8;
+  color: #7b7b7b;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.school-envelope {
+  display:block;
+  margin: 7% 0 10% 0;
+}
+
+.school {
+  width: 50%;
+  margin: auto;
+}
+
+.school-img{
+  width: 50%;
+  float: right;
+}
+
+/**********************************BOTTOM CONTAINER**********************************/
+.bottom-container {
+  width: 100%;
+  display: block;
+  height: 35vh;
+  background-color: #c5ded7;
+}
+
+.contact-me {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vh;
+  color: #318d78;
+  position: relative;
+  top: 1em;
+}
+
+.links {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+.contacts {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #47b29a;
+  font-size: 2.5vh;
+  font-weight: bold;
+  display: inline-block;
+  width: 33%;
+  position: relative;
+  top: 3em;
+  text-decoration: underline;
+}
+
+/********************************MISCELLANEOUS***************************************/
+.rule {
+  display: block;
+  border-top: dotted;
+  width: 5%;
+  border-width: 0.5vh;
+  margin: 8vh auto 8vh auto;
+  border-color: #5e5e5e;
+}
